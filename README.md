@@ -5,6 +5,7 @@
     - password reset by email
     - test payment with paypal
     - adding and deleting comments on the products we ordered (only the person who made the comment can delete the comments)
+    - responsive design
 
 ## Run Locally
 
