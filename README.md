@@ -1,6 +1,6 @@
 # 44-Store-E-Commerce
 
-![1](https://user-images.githubusercontent.com/62966040/147103049-a812d475-f35d-4afb-aa92-7adc52da891a.PNG = 250x250)
+![1](https://user-images.githubusercontent.com/62966040/147103049-a812d475-f35d-4afb-aa92-7adc52da891a.PNG){:height="50%" width="50%"}
 ![2](https://user-images.githubusercontent.com/62966040/147103055-57b3e46d-d0e4-4ea9-9e74-0746203c1f15.PNG)
 ![3](https://user-images.githubusercontent.com/62966040/147103056-d6572fd5-0fac-485f-ae42-68ff0c9ce6d0.PNG)
 ![5](https://user-images.githubusercontent.com/62966040/147103059-946d0eb2-80db-4650-94a8-97c57fed716d.PNG)
