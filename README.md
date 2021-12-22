@@ -1,9 +1,12 @@
 ## There are 3 different user types in my project. They are admin , seller and customer
 
 Features
-account verification by mail
-password reset by email
-test payment with paypal
+
+
+  - ## Features
+      - account verification by mail
+      - password reset by email
+      - test payment with paypal
 
 ![1](https://user-images.githubusercontent.com/62966040/147103049-a812d475-f35d-4afb-aa92-7adc52da891a.PNG)
 ![2](https://user-images.githubusercontent.com/62966040/147103055-57b3e46d-d0e4-4ea9-9e74-0746203c1f15.PNG)
