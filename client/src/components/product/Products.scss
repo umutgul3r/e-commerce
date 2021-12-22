@@ -10,30 +10,24 @@
 .delete-all {
   text-align: right;
   margin: 20px;
-}
-.delete-all input {
-  height: 25px;
-  width: 25px;
-  transform: translateY(5px);
-  margin: 0 15px;
-}
-.delete-all span {
-  text-transform: uppercase;
-  color: rgb(3, 165, 206);
-  letter-spacing: 1.3px;
-  margin-right: 30px;
-}
-.delete-all button {
-  border: 1px solid crimson;
-  padding: 10px 25px;
-  color: crimson;
-  text-transform: uppercase;
-}
-.checkAll {
-  height: 25px;
-  width: 25px;
-  margin-top: 5px;
-  position: absolute;
+  input {
+    height: 25px;
+    width: 25px;
+    transform: translateY(5px);
+    margin: 0 15px;
+  }
+  span {
+    text-transform: uppercase;
+    color: rgb(3, 165, 206);
+    letter-spacing: 1.3px;
+    margin-right: 30px;
+  }
+  button {
+    border: 1px solid crimson;
+    padding: 10px 25px;
+    color: crimson;
+    text-transform: uppercase;
+  }
 }
 .myProducts {
   display: flex;

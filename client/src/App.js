@@ -55,7 +55,7 @@ function App() {
   }, [token, dispatch]);
 
   useEffect(() => {
-    dispatch(productsFetch([2, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
     dispatch(categoryFetch());
   });
 

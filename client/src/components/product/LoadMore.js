@@ -11,7 +11,7 @@ function LoadMore() {
   const { page } = useSelector((state) => state.products);
 
   const load = () => {
-    dispatch(pages(page + 2));
+    dispatch(pages(page + 1));
     dispatch(productsFetch([page, "", "", ""]));
   };
 

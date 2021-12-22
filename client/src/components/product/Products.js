@@ -21,7 +21,7 @@ function Products() {
   const [isPassword, setisPassword] = useState(false);
 
   useEffect(() => {
-    dispatch(productsFetch([2, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
   }, [dispatch]);
 
   const deleteProduct = async (id, public_id) => {
@@ -44,7 +44,7 @@ function Products() {
     } catch (err) {
       alert(err.response.data.msg);
     }
-    dispatch(productsFetch([2, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
   };
 
   let checked = "";

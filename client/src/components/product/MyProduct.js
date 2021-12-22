@@ -22,7 +22,7 @@ function MyProducts() {
 
   useEffect(() => {
     console.log("object");
-    dispatch(productsFetch([2, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
   }, []);
 
   const deleteProduct = async (id, public_id) => {
@@ -45,7 +45,7 @@ function MyProducts() {
     } catch (err) {
       alert(err.response.data.msg);
     }
-    dispatch(productsFetch([2, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
   };
   let checked = "";
   const checkAll = () => {

@@ -1,6 +1,6 @@
 .chatbox {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: lightsalmon;
   border-radius: 15px;
   position: fixed;
   right: 1rem;
@@ -21,7 +21,7 @@
     right: 10px;
     bottom: 10px;
     cursor: pointer;
-    background-color: red;
+    background-color: black;
     color: white;
     border-radius: 10px;
   }
@@ -32,7 +32,7 @@
     right: 65px;
     bottom: 10px;
     cursor: pointer;
-    background-color: red;
+    background-color: black;
     color: white;
     border-radius: 10px;
   }
@@ -51,7 +51,7 @@
     margin: 15px;
     padding: 5px;
     border-radius: 10px;
-    border: 2px solid red;
+    border: 2px solid black;
   }
   button {
     color: white;
@@ -60,7 +60,6 @@
 }
 
 @media only screen and (max-width: 540px) {
- 
   .chatBox {
     color: white;
     background-color: black;

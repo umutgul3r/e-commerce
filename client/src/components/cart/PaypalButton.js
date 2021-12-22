@@ -4,8 +4,6 @@ import PaypalExpressBtn from "react-paypal-express-checkout";
 export default class PaypalButton extends React.Component {
   render() {
     const onSuccess = (payment) => {
-      console.log("The payment was succeeded!", payment);
-
       this.props.tranSuccess(payment);
     };
 
@@ -27,9 +25,9 @@ export default class PaypalButton extends React.Component {
     };
 
     let style = {
-      size: "small",
-      color: "blue",
-      shape: "rect",
+      size: "responsive",
+      color: "black",
+      shape: "pill",
       label: "checkout",
       tagline: false,
     };

@@ -5,7 +5,7 @@ const initialState = {
   items: [],
   status: null,
   result: "",
-  page: 2,
+  page: 4,
 };
 export const add = createAsyncThunk("add/Product", async ([token, cart]) => {
   await axios.patch(
@@ -24,7 +24,7 @@ export const productsFetch = createAsyncThunk(
   async ([page, category, search, sort]) => {
     const res = await axios.get(
       `api/products?limit=${
-        page * 10
+        page * 6
       }&${category}&sort=${sort}&title[regex]=${search}`
     );
     return res.data;

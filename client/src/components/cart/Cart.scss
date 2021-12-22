@@ -1,6 +1,6 @@
 .cardInfo {
   text-align: center;
-  font-size:2rem;
+  font-size: 2rem;
   margin: 50px;
 }
 
@@ -9,18 +9,19 @@
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   .cart {
     border: 2px solid black;
     border-radius: 15px;
     transform: scaleY(0.98);
     height: 200px;
-    width: 320px;
-    margin: 10px;
-    padding: 20px;
+    width: 280px;
+    margin: auto;
+    padding: 10px;
     display: flex;
     justify-content: center;
   }
+
   .cartImg {
     width: 120px;
     height: 80px;
@@ -51,14 +52,19 @@
     cursor: pointer;
     padding: 10px;
   }
+  .paypalButton {
+    width: 250px;
+    margin-left: 15px;
+  }
   .total {
     width: 100%;
     height: 50px;
-    padding: 30px;
+    padding: 20px;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     h3 {
       color: black;

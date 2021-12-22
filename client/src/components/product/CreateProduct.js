@@ -137,7 +137,7 @@ function CreateProduct() {
     } catch (err) {
       alert(err.response.data.msg);
     }
-    dispatch(productsFetch([1, "", "", ""]));
+    dispatch(productsFetch([3, "", "", ""]));
   };
 
   const styleUpload = {

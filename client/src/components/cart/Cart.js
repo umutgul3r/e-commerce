@@ -133,10 +133,12 @@ function Cart() {
     <div className="cartWrapper">
       <div className="total">
         <h3>
-          Toplam:{total}
-          <span>&#8378;</span>
+          TOPLAM: <span>&#8378;</span>
+          {total}
         </h3>
-        <PaypalButton total={total} tranSuccess={tranSuccess} />
+        <div className="paypalButton">
+          <PaypalButton total={total} tranSuccess={tranSuccess} />
+        </div>
       </div>
       {cartItem.map((product) => (
         <div className="cart" key={product._id}>
@@ -147,8 +149,6 @@ function Cart() {
             <h3>
               <span>&#8378;</span> {product.price}
             </h3>
-            <p>{product.description}</p>
-            <p>{product.content}</p>
             <div className="cartCount">
               <button onClick={() => decrement(product._id)}> - </button>
               <span>{product.quantity}</span>
