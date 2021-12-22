@@ -1,9 +1,7 @@
 ## There are 3 different user types in my project. They are admin , seller and customer
 
-Features
 
-
-  - ## Features
+  - ## Extra features
       - account verification by mail
       - password reset by email
       - test payment with paypal
