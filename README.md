@@ -1,10 +1,39 @@
 ## There are 3 different user types in my project. They are admin , seller and customer
 
+- ## Extra features
+    - account verification by mail
+    - password reset by email
+    - test payment with paypal
 
-  - ## Extra features
-      - account verification by mail
-      - password reset by email
-      - test payment with paypal
+## Run Locally
+
+### 1. Clone repo
+
+```
+$ https://github.com/umutgul3r/44-Store-E-Commerce.git
+$ cd 44-Store
+```
+
+### 2. Install MongoDB
+
+Download it from here: https://docs.mongodb.com/manual/administration/install-community/
+
+### 3. Run Backend
+
+```
+$ cd api
+$ npm install
+$ npm run dev
+```
+
+### 4. Run Frontend
+
+```
+# open new terminal
+$ cd frontend
+$ npm install
+$ npm start
+```
 
 ![1](https://user-images.githubusercontent.com/62966040/147103049-a812d475-f35d-4afb-aa92-7adc52da891a.PNG)
 ![2](https://user-images.githubusercontent.com/62966040/147103055-57b3e46d-d0e4-4ea9-9e74-0746203c1f15.PNG)
