@@ -1,0 +1,23 @@
+.filterWrapper {
+  width: 100%;
+  min-height: 40px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  select,
+  input {
+    border-radius: 12px;
+    border: 1px solid #555;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+    flex: 1;
+    margin: 1px 10px;
+    &:focus {
+      border: 2px solid #555;
+    }
+  }
+}

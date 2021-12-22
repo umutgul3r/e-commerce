@@ -1,0 +1,74 @@
+.chatbox {
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 50;
+  max-width: 400px;
+  .supportButton {
+    background-color: white;
+  }
+  .supportImg {
+    height: 60px;
+    width: 60px;
+  }
+  .closeButton {
+    position: absolute;
+    height: 35px;
+    width: 50px;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+  }
+  .submitButton {
+    position: absolute;
+    height: 35px;
+    width: 60px;
+    right: 65px;
+    bottom: 10px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+  }
+  ul {
+    overflow: scroll;
+    max-height: 20rem;
+    min-height: 100px;
+    margin: 5px;
+    padding: 15px;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  input {
+    width: calc(100% - 9rem);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid red;
+  }
+  button {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+ 
+  .chatBox {
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    z-index: 50;
+    max-width: 400px;
+  }
+}

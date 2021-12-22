@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.App {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 10px;
+  padding: 0 20px;
+  box-shadow: 0 0 35px #eee;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style: none;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif !important;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.errMsg {
+  background: rgb(214, 10, 10);
+  color: #fff9;
+  text-align: center;
+  padding: 10px 0;
+  letter-spacing: 1.3px;
+}
+
+.successMsg {
+  background: rgb(9, 158, 54);
+  color: #fff9;
+  text-align: center;
+  padding: 10px 0;
+  letter-spacing: 1.3px;
+}
+
+@media (max-width: 570px) {
+  .filter_menu .row span {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .App {
+    padding: 0 20px;
+  }
+  .detail {
+    font-size: 100%;
+    padding: 0;
+  }
+  .filter_menu input {
+    margin: 0;
+  }
+  .filter_menu .sort {
+    flex: 1;
+  }
+  .filter_menu .sort select {
+    width: 100%;
+    min-width: 290px;
+    margin: 5px 0;
+  }
+  .login-page {
+    padding: 30px 15px;
+  }
+  .delete-all {
+    margin: 20px 0;
+  }
+  .create_product .upload {
+    margin: 20px 0;
+  }
+}
+
+// Reset CSS
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+input:focus::placeholder {
+  color: transparent;
+}

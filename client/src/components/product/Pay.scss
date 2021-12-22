@@ -1,0 +1,28 @@
+.payWrapper {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+  .cardWrapper {
+    height: 250px;
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+  a {
+    height: 270px;
+    width: 250px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    img {
+      padding: 10px;
+    }
+  }
+}
+.payTitle {
+  text-align: center;
+  font-size: 30px;
+}

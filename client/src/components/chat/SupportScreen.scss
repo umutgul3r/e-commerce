@@ -1,0 +1,97 @@
+.supportWrapper {
+  display: flex;
+  .support-users {
+    margin-right: 10px;
+    background: #f0f0f0;
+    height: 100%;
+    width: 40%;
+    li {
+      background-color: #f8f8f8;
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      text-align: left;
+    }
+    li {
+      margin: 0;
+      background-color: #f0f0f0;
+      border-bottom: 0.1rem #c0c0c0 solid;
+      display: flex;
+      flex-direction: column;
+      .selected {
+        background-color: #c0c0c0;
+      }
+    }
+    &:hover {
+      background-color: #f0f0f0;
+    }
+
+    .offline {
+      height: 30px;
+      width: 30px;
+      border-radius: 50px;
+      margin: 5px;
+      background-color: #808080;
+    }
+    .online {
+      height: 30px;
+      width: 30px;
+      border-radius: 50px;
+      margin: 5px;
+      background-color: #20a020;
+    }
+    .unread {
+      height: 30px;
+      width: 30px;
+      border-radius: 50px;
+      margin: 5px;
+      background-color: #f02020;
+    }
+    .state {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.support-messages {
+  padding: 1rem;
+  width: 80%;
+  border: 1px solid red;
+  input {
+    width: calc(100% - 9rem);
+  }
+  ul {
+    height: calc(100vh - 18rem);
+    max-height: calc(100vh - 18rem);
+    overflow: scroll;
+  }
+  span {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 10px;
+  }
+  li {
+    margin-bottom: 1rem;
+  }
+  button {
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .supportWrapper {
+    display: block;
+  }
+}
