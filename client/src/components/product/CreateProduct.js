@@ -144,7 +144,7 @@ function CreateProduct() {
     display: images ? "block" : "none",
   };
   return (
-    <div className="create_product">
+    <div className="productWrapper">
       <div className="upload">
         <input type="file" name="file" id="file_up" onChange={handleUpload} />
         {loading ? (
