@@ -18,7 +18,7 @@ $ cd 44-Store
 
 ### 2. Install MongoDB
 
-Download it from here:https://docs.mongodb.com/manual/administration/install-community/
+Download it from here: https://docs.mongodb.com/manual/administration/install-community/
 
 ### 3. Run Backend
 
