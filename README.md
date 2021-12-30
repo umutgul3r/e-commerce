@@ -50,4 +50,7 @@ $ npm start
 ![55](https://user-images.githubusercontent.com/62966040/147103729-8c1cd5b2-c0b9-4b2b-aaa4-6a14d1e134ba.PNG)
 ![33](https://user-images.githubusercontent.com/62966040/147106863-5c8e36f5-2ad7-46aa-b27e-94ac9934d572.PNG)
 ![77](https://user-images.githubusercontent.com/62966040/147106869-b3736241-3aa6-4b3c-8872-d248addb3b53.PNG)
+![localhost_3000_profile(iPhone 6_7_8)](https://user-images.githubusercontent.com/62966040/147790939-f4f393ae-9f31-4402-9b2f-fed2802e8f16.png)
+![localhost_3000_(iPhone 6_7_8) (1)](https://user-images.githubusercontent.com/62966040/147790941-cfff9902-65eb-4a85-bba4-e7060a996875.png)
+
 
