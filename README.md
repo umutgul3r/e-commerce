@@ -52,8 +52,7 @@ $ npm start
 ![77](https://user-images.githubusercontent.com/62966040/147106869-b3736241-3aa6-4b3c-8872-d248addb3b53.PNG)
 ![1](https://user-images.githubusercontent.com/62966040/147791120-112cc8f2-d0be-427b-aeda-d5be8e9b8e2c.PNG)
 ![2](https://user-images.githubusercontent.com/62966040/147791121-a8146e54-9018-4b31-89f8-4ede47d0fcb6.PNG)
-![34](https://user-images.githubusercontent.com/62966040/147791259-26c636fd-71a1-4fe0-af50-68ab736f1920.PNG)
-
+![44](https://user-images.githubusercontent.com/62966040/147791320-20025875-f67d-46a4-aff7-78dc3847488a.PNG)
 
 
 
