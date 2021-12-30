@@ -111,6 +111,7 @@ export default function Login() {
             />
 
             <img
+              className="hideImg"
               title={isPassword ? "Hide password" : "Show password"}
               onClick={() => setisPassword((prevState) => !prevState)}
               alt="show"
@@ -124,7 +125,9 @@ export default function Login() {
             <Link className="registerButton" to="/register">
               Kayıt ol
             </Link>
-            <Link to="/forgot_password">Şifremi Unuttum</Link>
+            <Link className="fgPwd" to="/forgot_password">
+              Şifremi Unuttum
+            </Link>
           </div>
         </form>
         <div className="social">

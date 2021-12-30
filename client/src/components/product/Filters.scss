@@ -21,3 +21,18 @@
     }
   }
 }
+
+@media screen and (max-width: 540px) {
+  .filterWrapper {
+    display: flex;
+    justify-content: start;
+    .filterOption {
+      width: 100px;
+      margin-top: 10px;
+    }
+    .filterSort {
+      width: 125px;
+      margin-top: 10px;
+    }
+  }
+}

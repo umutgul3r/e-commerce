@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { productsFetch } from "../../redux/reducers/productSlice";
 import "./Filters.scss";
@@ -30,8 +30,16 @@ function Filters() {
       >
         Ara
       </button>
-      <div className="filterOption">
-        <select name="category" value={category} onChange={handleCategory}>
+      <div>
+        <select
+          className="filterOption"
+          name="category"
+          value={category}
+          onChange={handleCategory}
+          onClick={() =>
+            dispatch(productsFetch([page, category, search, sort]))
+          }
+        >
           <option value="">Hepsi</option>
           {categoryItems.map((category) => (
             <option value={"category=" + category._id} key={category._id}>
@@ -40,8 +48,15 @@ function Filters() {
           ))}
         </select>
       </div>
-      <div className="filterSort">
-        <select value={sort} onChange={(e) => setSort(e.target.value)}>
+      <div>
+        <select
+          onClick={() =>
+            dispatch(productsFetch([page, category, search, sort]))
+          }
+          className="filterSort"
+          value={sort}
+          onChange={(e) => setSort(e.target.value)}
+        >
           <option value="">En yeni</option>
           <option value="oldest">En eski</option>
           <option value="-sold">En çok satılan</option>

@@ -63,6 +63,7 @@ export default function ChatBox() {
       }, 1000);
     }
   };
+
   const closeHandler = () => {
     setIsOpen(false);
   };

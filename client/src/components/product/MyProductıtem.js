@@ -26,7 +26,6 @@ function ProductItem({ product, isAdmin, deleteProduct, isPassword }) {
             {product.price}
             <span>&#8378;</span>
           </span>
-          <p>{product.description}</p>
         </div>
         <Button product={product} deleteProduct={deleteProduct} />
       </div>

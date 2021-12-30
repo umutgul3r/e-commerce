@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 export default function PayItem({ com }) {
   const [total, setTotal] = useState(0);
+
+  const auth = useSelector((state) => state.auth);
+  const { user } = auth;
 
   useEffect(() => {
     setTotal(com.sold * com.price);

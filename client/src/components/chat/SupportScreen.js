@@ -115,7 +115,7 @@ export default function SupportScreen() {
         {users.filter((x) => x._id !== user._id).length === 0 && (
           <MessageBox>Çevrim İçin Kullanıcı Bulunamadı</MessageBox>
         )}
-        <ul>
+        <ul className="ul">
           {users
             .filter((x) => x._id !== user._id)
             .map((user) => (
@@ -159,7 +159,7 @@ export default function SupportScreen() {
                 </li>
               ))}
             </ul>
-            <div>
+            <div className="textSide">
               <form onSubmit={submitHandler}>
                 <input
                   value={messageBody}

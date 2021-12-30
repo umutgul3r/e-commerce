@@ -1,9 +1,11 @@
 .payWrapper {
   margin-top: 25px;
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
-  text-align: center;
+  .pay {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
   .cardWrapper {
     height: 250px;
     width: 100%;

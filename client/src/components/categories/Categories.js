@@ -65,7 +65,7 @@ function Categories() {
   };
 
   return (
-    <div className="categories">
+    <div className="categoriWrapper">
       <form onSubmit={createCategory}>
         <label htmlFor="category">Kategori</label>
         <input
@@ -79,9 +79,9 @@ function Categories() {
         <button type="submit">{onEdit ? "Güncelle" : "Oluştur"}</button>
       </form>
 
-      <div className="col">
+      <div className="categoriess">
         {categoryItems.map((category) => (
-          <div className="row" key={category._id}>
+          <div className="categories" key={category._id}>
             <p>{category.name}</p>
             <div>
               <button onClick={() => editCategory(category._id, category.name)}>

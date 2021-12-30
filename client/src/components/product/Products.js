@@ -47,31 +47,11 @@ function Products() {
     dispatch(productsFetch([3, "", "", ""]));
   };
 
-  let checked = "";
-  const checkAll = () => {
-    items.forEach((product, i) => {
-      checked = !isCheck;
-    });
-    setIsCheck(!isCheck);
-    setisPassword((prevState) => !prevState);
-  };
-
-  const deleteAll = () => {
-    items.forEach((product) => {
-      if (isCheck) deleteProduct(product._id, product.images.public_id);
-    });
-  };
-
   if (loading) return <div>Ürün Siliniyor Lütfen Bekleyiniz</div>;
   return (
     <>
       <Filters />
-      {isAdmin && (
-        <div className="delete-all">
-          <button onClick={checkAll}>Tümünü Seç</button>
-          <button onClick={deleteAll}>Tümünü Sil</button>
-        </div>
-      )}
+
       <div className="products">
         {items.map((product) => {
           return (

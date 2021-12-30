@@ -52,6 +52,7 @@
   font-weight: 450;
   line-height: normal;
   margin-left: 5px;
+  margin-top: 40px;
   min-height: 10px;
   outline: none;
   padding: 5px;
@@ -79,5 +80,9 @@
 @media (max-width: 540px) {
   .itemButton {
     width: 70px;
+  }
+  .cartButton {
+    width: 100px;
+    margin-top: 30px;
   }
 }

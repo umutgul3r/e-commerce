@@ -1,7 +1,7 @@
 .product_card {
   width: 210px;
   overflow: hidden;
-  height: 340px;
+  height: 300px;
   padding: 15px;
   box-shadow: 0 0 15px #ddd;
   margin: 10px 0;
@@ -63,12 +63,14 @@
   height: 25px;
 }
 .sellerProductCard {
-  max-width: 220px;
+  max-width: 200px;
   overflow: hidden;
   height: 240px;
-  padding: 15px;
+  text-align: center;
   box-shadow: 0 0 15px #ddd;
   margin: 10px 0;
+  width: 150px !important;
+
   position: relative;
 }
 .filterSearch {
@@ -89,10 +91,11 @@
   .product_card {
     max-width: 200px;
     overflow: hidden;
-    height: 350px;
+    height: 280px;
     padding: 15px;
     box-shadow: 0 0 15px #ddd;
-    margin: 10px 0;
+    margin: 10px 1px;
     position: relative;
+    width: 140px;
   }
 }
