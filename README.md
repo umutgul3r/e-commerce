@@ -1,4 +1,4 @@
-## There are 3 different user types in my project.They are admin,seller and customer.
+## There are 3 different user types in my project.They are admin, seller and customer.
 
 - ## Extra features
     - account verification by mail
