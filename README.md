@@ -12,7 +12,7 @@
 ### 1. Clone repo
 
 ```
-$ https://github.com/umutgul3r/44-Store-E-Commerce.git
+$ git clone https://github.com/umutgul3r/44-Store-E-Commerce.git
 $ cd 44-Store
 ```
 
